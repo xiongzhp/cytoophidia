@@ -33,6 +33,9 @@ a img{
   color: #fff;
 }
 
+.about {
+  color:black;
+}
 .android-search-box .mdl-textfield__input {
   color: rgba(0, 0, 0, 0.87);
 }
@@ -182,7 +185,7 @@ a img{
 .logo-font {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
-  color: white;
+  color: #f44336;
   font-weight: 500;
 }
 
@@ -210,7 +213,7 @@ a img{
 .android-screen-section {
   position: relative;
   padding-top: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 8px;
 }
 
 .android-screens {
@@ -225,7 +228,7 @@ a img{
 }
 
 .android-screen .android-link {
-  margin-top: 16px;
+  margin-top: 28px;
   display: block;
   z-index: 2;
 }
@@ -234,22 +237,10 @@ a img{
   text-decoration: none;
 }
 
-.android-wear {
-  display: inline-block;
-  width: 160px;
-  margin-right: 32px;
-}
-
-  .android-wear .android-screen-image {
-    width: 40%;
-    z-index: 1;
-  }
-
-
 .android-phone {
   display: inline-block;
-  width: 64px;
-  margin-right: 48px;
+  width: 380px;
+  margin-right: 28px;
 }
 
   .android-phone .android-screen-image {
@@ -257,11 +248,11 @@ a img{
     z-index: 1;
   }
 
-
 .android-tablet {
+  margin-top: 8px;
   display: inline-block;
-  width: 110px;
-  margin-right: 64px;
+  width: 380px;
+  margin-right: 28px;
 }
 
   .android-tablet .android-screen-image {
@@ -276,9 +267,10 @@ a img{
 
 
 .android-tv {
+  margin-top: 8px;
   display: inline-block;
-  width: 300px;
-  margin-right: 80px;
+  width: 380px;
+  margin-right: 18px;
 }
 
   .android-tv .android-screen-image {
@@ -302,9 +294,9 @@ a img{
 
 .android-wear-section {
   position: relative;
-  background: url('images/wear.png') center top no-repeat;
-  background-size: cover;
-  height: 800px;
+  background: url('../images/functions_new.png') center top no-repeat;
+  background-size: contain;
+  height: 780px;
 }
 
 .android-wear-band {
