@@ -24,7 +24,7 @@ var lastId,
 // });
 
 // Bind to scroll
-$('div#page').scroll(function(){
+$('main').scroll(function(){
    // Get container scroll position
    var fromTop = $(this).scrollTop()+topMenuHeight;
    

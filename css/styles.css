@@ -168,7 +168,7 @@ a img{
   height: 600px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('../images/Cytoophidia.jpg') center 30% no-repeat;
+  background: url('../images/Cytoophidia_wb.jpg') center 30% no-repeat;
   background-size: cover;
 }
 
@@ -177,14 +177,14 @@ a img{
   /*height: 300px;*/
   width: auto;
   background-color: #f3f3f3;
-  background: url('../images/lujiazui2.jpg') center 80% no-repeat;
+  background: url('../images/lujiazui_sun.jpg') center 80% no-repeat;
   background-size: cover;
 }
 
 .logo-font {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
-  color: #f44336;
+  color: #fbe100;
   font-weight: 500;
 }
 .team-logo-font {
@@ -506,7 +506,7 @@ a img{
   max-width: 700px;
 }
 .demo-blog .coffee-pic .mdl-card__media {
-  background-image: url('images/Cytoophidia.jpg');
+  background-image: url('images/Cytoophidia_wb.jpg');
 }
 /**** Mobile layout ****/
 @media (max-width: 900px) {
