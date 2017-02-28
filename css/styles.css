@@ -505,9 +505,7 @@ a img{
 .pubs {
   max-width: 700px;
 }
-.demo-blog .coffee-pic .mdl-card__media {
-  background-image: url('images/Cytoophidia_wb.jpg');
-}
+
 /**** Mobile layout ****/
 @media (max-width: 900px) {
   .android-navigation-container {
